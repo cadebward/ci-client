@@ -1,4 +1,4 @@
-<!-- # [ngBoilerplate](http://joshdmiller.github.com/ng-boilerplate) [![Build Status](https://api.travis-ci.org/ngbp/ngbp.png?branch=v0.3.2-release)](https://travis-ci.org/ngbp/ngbp) -->
+# [CI Client](http://github.com/cadew/ci-client) [![Build Status](https://travis-ci.org/cadew/ci-client.svg?branch=master)](https://travis-ci.org/cadew/ci-client)
 
 The beginnings of a continuous integration server. Client code written in [AngularJS](http://angularjs.org).
 
@@ -18,3 +18,7 @@ $ grunt watch
 ```
 
 Finally, open `file:///path/to/ng-boilerplate/build/index.html` in your browser.
+
+## Todo
+
+* give this guy a nice name
