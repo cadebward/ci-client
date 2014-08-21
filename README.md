@@ -22,3 +22,4 @@ Finally, open `file:///path/to/ng-boilerplate/build/index.html` in your browser.
 ## Todo
 
 * give this guy a nice name
+* get ci working with drone
