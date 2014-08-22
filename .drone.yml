@@ -1,4 +1,4 @@
-image: bradrydzewski/node0.10
+image: bradrydzewski/node:0.10
 
 script:
   - sudo apt-get -y install build-essential
