@@ -1,7 +1,7 @@
 image: node0.10
 
 script:
-  - npm install -g node-gyp socket.io
+  - npm install -g grunt-cli karma bower
   - npm install
   - bower install
   - grunt
