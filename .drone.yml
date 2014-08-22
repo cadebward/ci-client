@@ -1,4 +1,6 @@
+image: node0.10
+
 script:
   - npm install
   - bower install
-  - grunt
+  - gruntg
