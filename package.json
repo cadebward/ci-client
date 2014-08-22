@@ -12,6 +12,9 @@
     "type": "git",
     "url": "git@github.com:ngbp/ngbp.git"
   },
+  "scripts": {
+   "test": "./node_modules/karma/bin/karma start --single-run --browsers PhantomJS"
+},
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",

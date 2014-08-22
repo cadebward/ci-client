@@ -1,7 +1,12 @@
 image: bradrydzewski/node:0.10
 
 script:
-  - npm install --quiet -g grunt-cli karma bower
+  - npm install --quiet -g grunt-cli karma bower phantomjs
   - npm install --quiet
   - bower install
-  - grunt test
+  - grunt setup
+  - npm test
+
+deploy:
+  bash:
+    command: grunt compile
